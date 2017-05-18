@@ -20,7 +20,7 @@ console.log("Simple class replacement tests passed");
 
 //Testing replacements in a longer inheritance chain
 import { ClassFive } from "./inheritance_chain/ClassFive";
-import { ClassThree } from "../src_repl/inheritance_chain/ClassThree";
+import { ClassThree } from "./inheritance_chain/ClassThree_repl";
 
 let five = new ClassFive();
 chai.assert.equal(five.getFullName(), "ReplacedClassFive", "webpack succesfully replaced ClassThree");
