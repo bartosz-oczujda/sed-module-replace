@@ -5,7 +5,7 @@ import { TesterSubclass } from "./TesterSubclass";
 
 //Needed only for casting purposes if we add 
 //new fuctionality to the replaced class
-import { Tester as TestReplacer} from "../src_repl/Tester_repl"
+import { Tester as TestReplacer} from "./Tester_repl"
 
 //I want to replace this class with TestReplacer
 //This is what NormalModuleReplacementPlugin is doing in the webpack config
